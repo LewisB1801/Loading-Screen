@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>London City Network</title>
+</head>
+
+<body>
+  <div id="video-container">
+    <audio id="background-music" autoplay>
+      <source src="Assets/music.mp3" type="audio/mpeg">
+    </audio>
+    <iframe id="youtube-video"
+      src="https://www.youtube.com/embed/Wqsg2vWHZBM?enablejsapi=1&start=20&autoplay=1&loop=1&mute=1&vq=hd1080"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+    </iframe>
+    <div class="overlay"></div>
+  </div>
+  <div class="loading-container">
+    <div class="slider">
+      <div class="tab-navigation">
+        <div class="tab" id="tab-1">Keybinds</div>
+        <div class="tab" id="tab-2">Jobs</div>
+        <div class="tab" id="tab-3">Hints</div>
+        <div class="tab" id="tab-4">Staff</div>
+        <!-- Add more tabs as needed -->
+      </div>
+      <div class="slides">
+        <div class="slides">
+
+          <div class="slide" id="slide-1">
+            <h1>Keybinds</h1>
+            <div class="keybinds">
+              <div class="key">
+                <img src="Assets/icons/f1.png" alt="">
+                <p>Phone</p>
+              </div>
+              <div class="key">
+                <img src="Assets/icons/f2.png" alt="">
+                <p>Inventory</p>
+              </div>
+              <div class="key">
+                <img src="Assets/icons/z.png" alt="">
+                <p>Radial</p>
+              </div>
+              <div class="key">
+                <img src="Assets/icons/alt.png" alt="">
+                <p>Third Eye</p>
+              </div>
+              <!-- Add more keybinds here -->
+
+              <div class="warning">
+                <h2>WARNING!</h2>
+                <p>
+                  If your keybinds are not working, go into your FiveM keybind settings
+                  and change them to the ones we recommend.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide" id="slide-2">
+            <h1>Jobs</h1>
+            <div class="job-list">
+              <div class="job">
+                <img src="path_to_image_trucker.jpg" alt="Trucker">
+                <h3>Trucker</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_taxi.jpg" alt="Taxi">
+                <h3>Taxi</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_tow.jpg" alt="Tow Truck">
+                <h3>Tow Truck</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_reporter.jpg" alt="News Reporter">
+                <h3>News Reporter</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_garbage.jpg" alt="Garbage Collector">
+                <h3>Garbage Collector</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_bus.jpg" alt="Bus Driver">
+                <h3>Bus Driver</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_hotdog.jpg" alt="Hot Dog Stand">
+                <h3>Mail Man</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_hotdog.jpg" alt="Hot Dog Stand">
+                <h3>Pizza Delivery</h3>
+              </div>
+              <div class="job">
+                <img src="path_to_image_hotdog.jpg" alt="Hot Dog Stand">
+                <h3>Hot Dog Stand</h3>
+              </div>
+              <!-- Add more jobs as needed -->
+            </div>
+          </div>
+
+          <div class="slide" id="slide-3">
+            <h1>Hints</h1>
+            <div class="hints">
+              <div class="hint">
+                <h3>Getting a Job</h3>
+                <p>Visit the job center and choose from available jobs.</p>
+              </div>
+              <div class="hint">
+                <h3>Obtaining a Car</h3>
+                <p>Check out the car dealership for a variety of vehicles.</p>
+              </div>
+              <div class="hint">
+                <h3>Starting a Business</h3>
+                <p>Launch your own business through the city's business system.</p>
+              </div>
+              <div class="hint">
+                <h3>Earning Money</h3>
+                <p>Engage in various activities like jobs, missions, and events to earn money.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide" id="slide-4">
+            <h1>Meet the Team</h1>
+            <div class="staff-list">
+              <div class="staff-group">
+                <h3>Owners</h3>
+                <ul>
+                  <li>
+                    <div class="profile-picture">
+                      <img
+                        src="https://images-ext-2.discordapp.net/external/7tEUcSUIWFZt06-s_9OJa8Tnz7tnoY1EGaGBD5lDgSI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/189385513000501249/a_efc6493879f55cb18b1b0c464627f1b1.gif?width=334&height=334"
+                        alt="Owner 1">
+                    </div>
+                    lewisb1801
+                  </li>
+                  <li>
+                    <div class="profile-picture">
+                      <img
+                        src="https://cdn.discordapp.com/avatars/705789694788632667/a_9af0a5c92c79792c09b4632717bb6e69.gif?size=1024"
+                        alt="Owner 2">
+                    </div>
+                    k54
+                  </li>
+                </ul>
+              </div>
+              <div class="staff-group">
+                <h3>Managers</h3>
+                <ul>
+                  <li>
+                    <div class="profile-picture">
+                      <img
+                        src="https://images-ext-1.discordapp.net/external/9Jl99N7fJVj3mIUWxQOFgZR4nAsRohWZZ1h3A1y0Nrk/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/362319474004590602/a735a353537ebd98537c0cebde78b867.png?width=468&height=468"
+                        alt="Manager 1">
+                    </div>
+                    at0mico
+                  </li>
+                  <li>
+                    <div class="profile-picture">
+                      <img
+                        src="https://images-ext-1.discordapp.net/external/zP8WBGgwzWUIICRj_WmTzkriAUCsH4QL_fagVM2onxI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/185314445642170369/bdce9336fc663a0f44527a901a873d8d.png?width=307&height=307"
+                        alt="Manager 2">
+                    </div>
+                    vbrucie
+                  </li>
+                  <li>
+                    <div class="profile-picture">
+                      <img
+                        src="https://images-ext-2.discordapp.net/external/xdGhCZ9WFs4i1ZFqXqjuye0mglnijHAMg6VIe54hksI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/727134574982987838/8a87499703bf1e01c1b3dec60cbcc10f.png?width=307&height=307"
+                        alt="Manager 3">
+                    </div>
+                    fvoly
+                  </li>
+                </ul>
+              </div>
+              <!-- Repeat for other staff groups and members -->
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <ion-icon class="custom-cursor" name="finger-print-outline"></ion-icon>
+  </div>
+
+  <div class="background">
+    <img class="logo" src="Assets/logo.png" alt="">
+    <br>
+    <div class="bottom">
+      <h3 class="keybottom"><img src="Assets/icons/space.png" alt="">Music</h3>
+      <h3 class="keybottom"><img src="Assets/icons/tab.png" alt="">Interface</h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
